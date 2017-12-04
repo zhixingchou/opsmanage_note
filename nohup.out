@@ -1,0 +1,397 @@
+[04/Dec/2017 22:11:26] "GET / HTTP/1.1" 500 90493
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 04, 2017 - 22:10:44
+Django version 1.8.17, using settings 'OpsManage.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[04/Dec/2017 22:13:09] "GET / HTTP/1.1" 302 0
+[04/Dec/2017 22:13:09] "GET /login?next=/ HTTP/1.1" 301 0
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/opt/OpsManage/OpsManage/views/index.py", line 91, in login
+    return render(request,'login.html')
+  File "/usr/local/lib/python2.7/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python2.7/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python2.7/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+TemplateDoesNotExist: login.html
+[04/Dec/2017 22:13:09] "GET /login/?next=/ HTTP/1.1" 500 84126
+[04/Dec/2017 22:14:24] "GET / HTTP/1.1" 302 0
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/opt/OpsManage/OpsManage/views/index.py", line 91, in login
+    return render(request,'login.html')
+  File "/usr/local/lib/python2.7/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python2.7/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python2.7/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+TemplateDoesNotExist: login.html
+[04/Dec/2017 22:14:24] "GET /login/?next=/ HTTP/1.1" 500 83833
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/opt/OpsManage/OpsManage/views/index.py", line 91, in login
+    return render(request,'login.html')
+  File "/usr/local/lib/python2.7/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python2.7/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python2.7/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+TemplateDoesNotExist: login.html
+[04/Dec/2017 22:23:42] "GET /login/?next=/ HTTP/1.1" 500 83968
+[04/Dec/2017 22:23:45] "GET / HTTP/1.1" 302 0
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/opt/OpsManage/OpsManage/views/index.py", line 91, in login
+    return render(request,'login.html')
+  File "/usr/local/lib/python2.7/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python2.7/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python2.7/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+TemplateDoesNotExist: login.html
+[04/Dec/2017 22:23:45] "GET /login/?next=/ HTTP/1.1" 500 83833
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 3 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth.
+Run 'python manage.py migrate' to apply them.
+December 04, 2017 - 22:14:15
+Django version 1.11.7, using settings 'OpsManage.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[04/Dec/2017 22:34:29] "GET /login/?next=/ HTTP/1.1" 200 3561
+[04/Dec/2017 22:34:29] "GET /static/dist/css/sb-admin-2.css HTTP/1.1" 200 8420
+[04/Dec/2017 22:34:29] "GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 29063
+[04/Dec/2017 22:34:29] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[04/Dec/2017 22:34:29] "GET /static/vendor/metisMenu/metisMenu.min.css HTTP/1.1" 200 781
+[04/Dec/2017 22:34:29] "GET /static/vendor/metisMenu/metisMenu.min.js HTTP/1.1" 200 1879
+[04/Dec/2017 22:34:29] "GET /static/dist/js/sb-admin-2.js HTTP/1.1" 200 1626
+[04/Dec/2017 22:34:29] "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 200 86351
+[04/Dec/2017 22:34:29] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121200
+[04/Dec/2017 22:34:31] "POST /login/?next=/ HTTP/1.1" 302 4
+[04/Dec/2017 22:34:31] "GET /user/center/ HTTP/1.1" 200 24372
+[04/Dec/2017 22:34:31] "GET /static/vendor/morrisjs/morris.css HTTP/1.1" 200 433
+[04/Dec/2017 22:34:31] "GET /static/dist/css/bootstrap-datetimepicker.min.css HTTP/1.1" 200 11258
+[04/Dec/2017 22:34:31] "GET /static/vendor/raphael/raphael.min.js HTTP/1.1" 200 92516
+[04/Dec/2017 22:34:31] "GET /static/vendor/morrisjs/morris.min.js HTTP/1.1" 200 35652
+[04/Dec/2017 22:34:31] "GET /static/dist/css/jquery.dataTables.min.css HTTP/1.1" 200 14029
+[04/Dec/2017 22:34:31] "GET /static/dist/css/xcConfirm.css HTTP/1.1" 200 1934
+[04/Dec/2017 22:34:31] "GET /static/dist/css/bootstrap-select.css HTTP/1.1" 200 6643
+[04/Dec/2017 22:34:31] "GET /static/js/csrf.js HTTP/1.1" 200 1623
+[04/Dec/2017 22:34:31] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 200 83268
+[04/Dec/2017 22:34:31] "GET /static/vendor/flot/excanvas.min.js HTTP/1.1" 200 19314
+[04/Dec/2017 22:34:31] "GET /static/js/bootstrap-datetimepicker.js HTTP/1.1" 200 67451
+[04/Dec/2017 22:34:31] "GET /static/vendor/flot/jquery.flot.js HTTP/1.1" 200 122971
+[04/Dec/2017 22:34:31] "GET /static/vendor/flot/jquery.flot.time.js HTTP/1.1" 200 11768
+[04/Dec/2017 22:34:31] "GET /static/vendor/flot-tooltip/jquery.flot.tooltip.min.js HTTP/1.1" 200 8789
+[04/Dec/2017 22:34:31] "GET /static/vendor/flot/jquery.flot.resize.js HTTP/1.1" 200 3314
+[04/Dec/2017 22:34:31] "GET /static/vendor/flot/jquery.flot.pie.js HTTP/1.1" 200 23809
+[04/Dec/2017 22:34:31] "GET /static/dist/js/bootstrap-select.js HTTP/1.1" 200 59424
+[04/Dec/2017 22:34:31] "GET /static/dist/js/xcConfirm.js HTTP/1.1" 200 5183
+[04/Dec/2017 22:34:32] "GET /static/js/echarts.js HTTP/1.1" 200 556681
+[04/Dec/2017 22:34:32] "GET /static/vendor/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 71896
+[04/Dec/2017 22:34:32] "GET /static/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+[04/Dec/2017 22:34:32] "GET /api/order/admin/ HTTP/1.1" 200 2
+[04/Dec/2017 22:34:34] "GET / HTTP/1.1" 200 35257
+[04/Dec/2017 22:34:34] "GET /api/order/admin/ HTTP/1.1" 200 2
+[04/Dec/2017 22:34:53] "GET /assets_add HTTP/1.1" 200 35473
+[04/Dec/2017 22:34:54] "GET /api/order/admin/ HTTP/1.1" 200 2
+[04/Dec/2017 22:35:00] "GET /deploy_log/1/ HTTP/1.1" 200 20364
+[04/Dec/2017 22:35:00] "GET /api/order/admin/ HTTP/1.1" 200 2
+[04/Dec/2017 22:35:09] "GET /apps/model/ HTTP/1.1" 200 26480
+[04/Dec/2017 22:35:09] "GET /api/order/admin/ HTTP/1.1" 200 2
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 3 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth.
+Run 'python manage.py migrate' to apply them.
+December 04, 2017 - 22:34:24
+Django version 1.11.7, using settings 'OpsManage.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[04/Dec/2017 22:35:17] "POST /apps/run/ HTTP/1.1" 200 70
+[04/Dec/2017 22:35:18] "POST /apps/model/ HTTP/1.1" 200 60
+[04/Dec/2017 22:35:18] "POST /apps/run/ HTTP/1.1" 200 158
+[04/Dec/2017 22:35:19] "POST /apps/run/ HTTP/1.1" 200 56
+[04/Dec/2017 22:35:19] "GET /static/dist/img/icons.png HTTP/1.1" 200 4999
+[04/Dec/2017 22:35:21] "GET /config HTTP/1.1" 200 25616
+[04/Dec/2017 22:35:22] "GET /api/order/admin/ HTTP/1.1" 200 2
+[04/Dec/2017 22:35:23] "GET /config HTTP/1.1" 200 25616
+[04/Dec/2017 22:35:24] "GET /api/order/admin/ HTTP/1.1" 200 2
+[04/Dec/2017 22:35:25] "GET /users/manage HTTP/1.1" 200 34333
+[04/Dec/2017 22:35:25] "GET /api/order/admin/ HTTP/1.1" 200 2
+[04/Dec/2017 22:35:28] "GET /logout HTTP/1.1" 302 0
+[04/Dec/2017 22:35:28] "GET /login HTTP/1.1" 301 0
+[04/Dec/2017 22:35:28] "GET /login/ HTTP/1.1" 200 3561
+[04/Dec/2017 22:35:30] "POST /login/ HTTP/1.1" 302 4
+[04/Dec/2017 22:35:30] "GET /user/center/ HTTP/1.1" 200 24372
+[04/Dec/2017 22:35:30] "GET /api/order/admin/ HTTP/1.1" 200 2
+[04/Dec/2017 22:35:31] "GET / HTTP/1.1" 200 35259
+[04/Dec/2017 22:35:32] "GET /api/order/admin/ HTTP/1.1" 200 2
+[04/Dec/2017 22:36:20] "GET /assets_list HTTP/1.1" 200 29606
+[04/Dec/2017 22:36:21] "GET /api/order/admin/ HTTP/1.1" 200 2
+[04/Dec/2017 22:36:21] "GET /assets_search/ HTTP/1.1" 200 60281
+[04/Dec/2017 22:36:21] "GET /static/dist/css/jquery-ui.min.css HTTP/1.1" 200 25748
+[04/Dec/2017 22:36:22] "GET /static/dist/js/jquery-ui.min.js HTTP/1.1" 200 228478
+[04/Dec/2017 22:36:22] "GET /static/dist/images/ui-bg_flat_75_ffffff_40x100.png HTTP/1.1" 200 178
+[04/Dec/2017 22:36:22] "GET /static/dist/images/ui-bg_glass_75_e6e6e6_1x400.png HTTP/1.1" 200 110
+[04/Dec/2017 22:36:22] "GET /static/dist/images/ui-bg_highlight-soft_75_cccccc_1x100.png HTTP/1.1" 200 101
+[04/Dec/2017 22:36:22] "GET /api/order/admin/ HTTP/1.1" 200 2
+[04/Dec/2017 22:36:24] "GET /static/img/close.png HTTP/1.1" 200 674
+[04/Dec/2017 22:36:24] "POST /assets_search/ HTTP/1.1" 200 2822
+[04/Dec/2017 22:36:30] "GET /static/dist/images/ui-bg_glass_75_dadada_1x400.png HTTP/1.1" 200 111
+[04/Dec/2017 22:36:30] "GET /static/dist/images/ui-bg_glass_65_ffffff_1x400.png HTTP/1.1" 200 105
+[04/Dec/2017 22:36:30] "POST /assets_search/ HTTP/1.1" 200 84
+[04/Dec/2017 22:36:31] "POST /assets_search/ HTTP/1.1" 200 2822
+[04/Dec/2017 22:36:40] "GET /assets_list HTTP/1.1" 200 29606
+[04/Dec/2017 22:36:40] "GET /api/order/admin/ HTTP/1.1" 200 2
+[04/Dec/2017 22:36:43] "GET /assets_view/1 HTTP/1.1" 301 0
+[04/Dec/2017 22:36:43] "GET /assets_view/1/ HTTP/1.1" 200 27918
+[04/Dec/2017 22:36:43] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[04/Dec/2017 22:36:43] "GET /static/vendor/metisMenu/metisMenu.min.css HTTP/1.1" 304 0
+[04/Dec/2017 22:36:43] "GET /static/dist/css/sb-admin-2.css HTTP/1.1" 304 0
+[04/Dec/2017 22:36:43] "GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[04/Dec/2017 22:36:43] "GET /static/vendor/morrisjs/morris.css HTTP/1.1" 304 0
+[04/Dec/2017 22:36:43] "GET /static/dist/css/bootstrap-select.css HTTP/1.1" 304 0
+[04/Dec/2017 22:36:43] "GET /static/dist/css/xcConfirm.css HTTP/1.1" 304 0
+[04/Dec/2017 22:36:43] "GET /static/dist/css/bootstrap-datetimepicker.min.css HTTP/1.1" 304 0
+[04/Dec/2017 22:36:43] "GET /static/dist/css/jquery.dataTables.min.css HTTP/1.1" 304 0
+[04/Dec/2017 22:36:43] "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+[04/Dec/2017 22:36:43] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[04/Dec/2017 22:36:43] "GET /static/vendor/metisMenu/metisMenu.min.js HTTP/1.1" 304 0
+[04/Dec/2017 22:36:43] "GET /static/vendor/raphael/raphael.min.js HTTP/1.1" 304 0
+[04/Dec/2017 22:36:43] "GET /static/vendor/morrisjs/morris.min.js HTTP/1.1" 304 0
+[04/Dec/2017 22:36:43] "GET /static/dist/js/sb-admin-2.js HTTP/1.1" 304 0
+[04/Dec/2017 22:36:43] "GET /static/vendor/flot/excanvas.min.js HTTP/1.1" 304 0
+[04/Dec/2017 22:36:43] "GET /static/vendor/flot/jquery.flot.js HTTP/1.1" 304 0
+[04/Dec/2017 22:36:43] "GET /static/vendor/flot/jquery.flot.pie.js HTTP/1.1" 304 0
+[04/Dec/2017 22:36:43] "GET /static/vendor/flot/jquery.flot.resize.js HTTP/1.1" 304 0
+[04/Dec/2017 22:36:43] "GET /static/vendor/flot/jquery.flot.time.js HTTP/1.1" 304 0
+[04/Dec/2017 22:36:43] "GET /static/vendor/flot-tooltip/jquery.flot.tooltip.min.js HTTP/1.1" 304 0
+[04/Dec/2017 22:36:43] "GET /static/dist/js/xcConfirm.js HTTP/1.1" 304 0
+[04/Dec/2017 22:36:43] "GET /static/js/csrf.js HTTP/1.1" 304 0
+[04/Dec/2017 22:36:43] "GET /static/dist/js/bootstrap-select.js HTTP/1.1" 304 0
+[04/Dec/2017 22:36:43] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[04/Dec/2017 22:36:43] "GET /static/js/bootstrap-datetimepicker.js HTTP/1.1" 304 0
+[04/Dec/2017 22:36:43] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[04/Dec/2017 22:36:43] "GET /api/order/admin/ HTTP/1.1" 200 2
+[04/Dec/2017 22:36:51] "GET /assets_search/ HTTP/1.1" 200 60281
+[04/Dec/2017 22:36:52] "GET /static/vendor/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 304 0
+[04/Dec/2017 22:36:52] "GET /static/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[04/Dec/2017 22:36:52] "GET /api/order/admin/ HTTP/1.1" 200 2
+[04/Dec/2017 22:37:10] "GET /assets_config HTTP/1.1" 200 40814
+[04/Dec/2017 22:37:10] "GET /api/order/admin/ HTTP/1.1" 200 2
+[04/Dec/2017 22:37:11] "GET /assets_list HTTP/1.1" 200 29606
+[04/Dec/2017 22:37:11] "GET /api/order/admin/ HTTP/1.1" 200 2
+Not Found: /index.html
+[04/Dec/2017 22:50:00] "GET /index.html HTTP/1.1" 404 25178
+[04/Dec/2017 22:50:04] "GET /api/order/admin/ HTTP/1.1" 200 2
+[04/Dec/2017 22:50:06] "GET / HTTP/1.1" 200 35257
+[04/Dec/2017 22:50:06] "GET /static/vendor/metisMenu/metisMenu.min.css HTTP/1.1" 304 0
+[04/Dec/2017 22:50:06] "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+[04/Dec/2017 22:50:06] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[04/Dec/2017 22:50:06] "GET /static/vendor/morrisjs/morris.css HTTP/1.1" 304 0
+[04/Dec/2017 22:50:06] "GET /static/dist/css/sb-admin-2.css HTTP/1.1" 304 0
+[04/Dec/2017 22:50:06] "GET /static/dist/css/bootstrap-select.css HTTP/1.1" 304 0
+[04/Dec/2017 22:50:06] "GET /static/dist/css/xcConfirm.css HTTP/1.1" 304 0
+[04/Dec/2017 22:50:06] "GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[04/Dec/2017 22:50:06] "GET /static/dist/css/bootstrap-datetimepicker.min.css HTTP/1.1" 304 0
+[04/Dec/2017 22:50:06] "GET /static/dist/css/jquery.dataTables.min.css HTTP/1.1" 304 0
+[04/Dec/2017 22:50:06] "GET /static/vendor/morrisjs/morris.min.js HTTP/1.1" 304 0
+[04/Dec/2017 22:50:06] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[04/Dec/2017 22:50:06] "GET /static/dist/js/sb-admin-2.js HTTP/1.1" 304 0
+[04/Dec/2017 22:50:06] "GET /static/vendor/flot/jquery.flot.time.js HTTP/1.1" 304 0
+[04/Dec/2017 22:50:06] "GET /static/dist/js/bootstrap-select.js HTTP/1.1" 304 0
+[04/Dec/2017 22:50:06] "GET /static/vendor/flot-tooltip/jquery.flot.tooltip.min.js HTTP/1.1" 304 0
+[04/Dec/2017 22:50:06] "GET /static/js/csrf.js HTTP/1.1" 304 0
+[04/Dec/2017 22:50:06] "GET /static/vendor/metisMenu/metisMenu.min.js HTTP/1.1" 304 0
+[04/Dec/2017 22:50:06] "GET /static/vendor/raphael/raphael.min.js HTTP/1.1" 304 0
+[04/Dec/2017 22:50:06] "GET /static/vendor/flot/excanvas.min.js HTTP/1.1" 304 0
+[04/Dec/2017 22:50:06] "GET /static/vendor/flot/jquery.flot.js HTTP/1.1" 304 0
+[04/Dec/2017 22:50:06] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[04/Dec/2017 22:50:06] "GET /static/vendor/flot/jquery.flot.pie.js HTTP/1.1" 304 0
+[04/Dec/2017 22:50:06] "GET /static/dist/js/xcConfirm.js HTTP/1.1" 304 0
+[04/Dec/2017 22:50:06] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[04/Dec/2017 22:50:06] "GET /static/vendor/flot/jquery.flot.resize.js HTTP/1.1" 304 0
+[04/Dec/2017 22:50:06] "GET /static/js/bootstrap-datetimepicker.js HTTP/1.1" 304 0
+[04/Dec/2017 22:50:07] "GET /static/vendor/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 304 0
+[04/Dec/2017 22:50:07] "GET /static/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[04/Dec/2017 22:50:07] "GET /api/order/admin/ HTTP/1.1" 200 2
+[04/Dec/2017 22:50:08] "GET / HTTP/1.1" 200 35257
+[04/Dec/2017 22:50:09] "GET /api/order/admin/ HTTP/1.1" 200 2
+[04/Dec/2017 22:50:10] "GET / HTTP/1.1" 200 35258
+[04/Dec/2017 22:50:11] "GET /api/order/admin/ HTTP/1.1" 200 2
+[04/Dec/2017 22:50:13] "GET / HTTP/1.1" 200 35257
+[04/Dec/2017 22:50:14] "GET /api/order/admin/ HTTP/1.1" 200 2
+[04/Dec/2017 22:50:14] "GET / HTTP/1.1" 200 35258
+[04/Dec/2017 22:50:15] "GET /api/order/admin/ HTTP/1.1" 200 2
+[04/Dec/2017 22:50:17] "GET /assets_config HTTP/1.1" 200 40814
+[04/Dec/2017 22:50:17] "GET /api/order/admin/ HTTP/1.1" 200 2
+[04/Dec/2017 22:50:18] "GET /assets_add HTTP/1.1" 200 35473
+[04/Dec/2017 22:50:19] "GET /api/order/admin/ HTTP/1.1" 200 2
+[04/Dec/2017 22:50:20] "GET / HTTP/1.1" 200 35259
+[04/Dec/2017 22:50:20] "GET /api/order/admin/ HTTP/1.1" 200 2
+[04/Dec/2017 22:50:23] "GET /users/manage HTTP/1.1" 200 34333
+[04/Dec/2017 22:50:23] "GET /api/order/admin/ HTTP/1.1" 200 2
+[04/Dec/2017 22:50:24] "GET / HTTP/1.1" 200 35260
+[04/Dec/2017 22:50:24] "GET /api/order/admin/ HTTP/1.1" 200 2
+[04/Dec/2017 22:50:30] "GET / HTTP/1.1" 200 35259
+[04/Dec/2017 22:50:31] "GET /api/order/admin/ HTTP/1.1" 200 2
+[04/Dec/2017 22:50:34] "GET / HTTP/1.1" 200 35258
+[04/Dec/2017 22:50:35] "GET /api/order/admin/ HTTP/1.1" 200 2
+[04/Dec/2017 22:50:36] "GET /assets_config HTTP/1.1" 200 40814
+[04/Dec/2017 22:50:36] "GET /api/order/admin/ HTTP/1.1" 200 2
+[04/Dec/2017 22:50:39] "GET /deploy_order/1/ HTTP/1.1" 200 27144
+[04/Dec/2017 22:50:39] "GET /api/order/admin/ HTTP/1.1" 200 2
+[04/Dec/2017 22:51:21] "GET /assets_add HTTP/1.1" 200 35473
+[04/Dec/2017 22:51:22] "GET /api/order/admin/ HTTP/1.1" 200 2
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 3 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth.
+Run 'python manage.py migrate' to apply them.
+December 04, 2017 - 23:00:53
+Django version 1.11.7, using settings 'OpsManage.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 3 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth.
+Run 'python manage.py migrate' to apply them.
+December 04, 2017 - 23:01:01
+Django version 1.11.7, using settings 'OpsManage.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 3 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth.
+Run 'python manage.py migrate' to apply them.
+December 04, 2017 - 23:01:08
+Django version 1.11.7, using settings 'OpsManage.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[04/Dec/2017 23:02:45] "GET /logout HTTP/1.1" 302 0
+[04/Dec/2017 23:02:45] "GET /login/ HTTP/1.1" 200 3668
+[04/Dec/2017 23:02:46] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[04/Dec/2017 23:02:46] "GET /static/vendor/metisMenu/metisMenu.min.css HTTP/1.1" 304 0
+[04/Dec/2017 23:02:46] "GET /static/dist/css/sb-admin-2.css HTTP/1.1" 304 0
+[04/Dec/2017 23:02:46] "GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[04/Dec/2017 23:02:46] "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+[04/Dec/2017 23:02:46] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[04/Dec/2017 23:02:46] "GET /static/vendor/metisMenu/metisMenu.min.js HTTP/1.1" 304 0
+[04/Dec/2017 23:02:46] "GET /static/dist/js/sb-admin-2.js HTTP/1.1" 304 0
+[04/Dec/2017 23:02:47] "POST /login/ HTTP/1.1" 302 4
+[04/Dec/2017 23:02:47] "GET /user/center/ HTTP/1.1" 200 24372
+[04/Dec/2017 23:02:48] "GET /static/vendor/morrisjs/morris.css HTTP/1.1" 304 0
+[04/Dec/2017 23:02:48] "GET /static/dist/css/xcConfirm.css HTTP/1.1" 304 0
+[04/Dec/2017 23:02:48] "GET /static/vendor/flot/jquery.flot.js HTTP/1.1" 304 0
+[04/Dec/2017 23:02:48] "GET /static/vendor/flot/jquery.flot.pie.js HTTP/1.1" 304 0
+[04/Dec/2017 23:02:48] "GET /static/vendor/flot/jquery.flot.resize.js HTTP/1.1" 304 0
+[04/Dec/2017 23:02:48] "GET /static/vendor/flot/jquery.flot.time.js HTTP/1.1" 304 0
+[04/Dec/2017 23:02:48] "GET /static/dist/css/bootstrap-datetimepicker.min.css HTTP/1.1" 304 0
+[04/Dec/2017 23:02:48] "GET /static/dist/css/bootstrap-select.css HTTP/1.1" 304 0
+[04/Dec/2017 23:02:48] "GET /static/dist/css/jquery.dataTables.min.css HTTP/1.1" 304 0
+[04/Dec/2017 23:02:48] "GET /static/vendor/flot-tooltip/jquery.flot.tooltip.min.js HTTP/1.1" 304 0
+[04/Dec/2017 23:02:48] "GET /static/dist/js/xcConfirm.js HTTP/1.1" 304 0
+[04/Dec/2017 23:02:48] "GET /static/dist/js/bootstrap-select.js HTTP/1.1" 304 0
+[04/Dec/2017 23:02:48] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[04/Dec/2017 23:02:48] "GET /static/js/bootstrap-datetimepicker.js HTTP/1.1" 304 0
+[04/Dec/2017 23:02:48] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[04/Dec/2017 23:02:48] "GET /static/vendor/raphael/raphael.min.js HTTP/1.1" 304 0
+[04/Dec/2017 23:02:48] "GET /static/vendor/flot/excanvas.min.js HTTP/1.1" 304 0
+[04/Dec/2017 23:02:48] "GET /static/js/csrf.js HTTP/1.1" 304 0
+[04/Dec/2017 23:02:48] "GET /static/vendor/morrisjs/morris.min.js HTTP/1.1" 304 0
+[04/Dec/2017 23:02:48] "GET /static/vendor/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 304 0
+[04/Dec/2017 23:02:48] "GET /static/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[04/Dec/2017 23:02:48] "GET /api/order/admin/ HTTP/1.1" 200 2
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 3 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth.
+Run 'python manage.py migrate' to apply them.
+December 04, 2017 - 23:02:00
+Django version 1.11.7, using settings 'OpsManage.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 3 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth.
+Run 'python manage.py migrate' to apply them.
+December 04, 2017 - 23:03:19
+Django version 1.11.7, using settings 'OpsManage.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[04/Dec/2017 23:04:27] "GET / HTTP/1.1" 200 35259
+[04/Dec/2017 23:04:29] "GET /api/order/admin/ HTTP/1.1" 200 2
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 3 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth.
+Run 'python manage.py migrate' to apply them.
+December 04, 2017 - 23:03:51
+Django version 1.11.7, using settings 'OpsManage.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[04/Dec/2017 23:07:07] "GET / HTTP/1.1" 200 35258
+[04/Dec/2017 23:07:08] "GET /api/order/admin/ HTTP/1.1" 200 2
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 3 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth.
+Run 'python manage.py migrate' to apply them.
+December 04, 2017 - 23:06:14
+Django version 1.11.7, using settings 'OpsManage.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
