@@ -99,7 +99,7 @@ mysql> grant all privileges on opsmanage.* to root@'%' identified by 'password';
 mysql>\q
 # /etc/init.d/mysqld restart
 ```
-七、配置OpsManage
+七、配置OpsManage error
 ```
 # cd /mnt/OpsManage
 # vim settings.py
